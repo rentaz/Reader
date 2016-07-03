@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="@string/nav_title_home"/>
+        <item
+            android:id="@+id/nav_psychology"
+            android:title="@string/nav_title_psychology_daily"/>
+        <item
+            android:id="@+id/nav_user_recommended"
+            android:title="@string/nav_title_user_recommended_daily"/>
+        <item
+            android:id="@+id/nav_movie"
+            android:title="@string/nav_title_movie_daily"/>
+        <item
+            android:id="@+id/nav_not_allowed_bored"
+            android:title="@string/nav_title_not_allowed_bored_daily"/>
+        <item
+            android:id="@+id/nav_design"
+            android:title="@string/nav_title_design_daily"/>
+        <item
+            android:id="@+id/nav_big_company"
+            android:title="@string/nav_title_big_company_daily"/>
+        <item
+            android:id="@+id/nav_economic"
+            android:title="@string/nav_title_economic_daily"/>
+        <item
+            android:id="@+id/nav_internet_safety"
+            android:title="@string/nav_title_internet_safety_daily"/>
+        <item
+            android:id="@+id/nav_start_games"
+            android:title="@string/nav_title_start_games_daily"/>
+        <item
+            android:id="@+id/nav_music"
+            android:title="@string/nav_title_music_daily"/>
+        <item
+            android:id="@+id/nav_cartoon"
+            android:title="@string/nav_title_cartoon_daily"/>
+        <item
+            android:id="@+id/nav_sports"
+            android:title="@string/nav_title_sports_daily"/>
+
+    </group>
+
+</menu>

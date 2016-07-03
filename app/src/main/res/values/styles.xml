@@ -1,0 +1,39 @@
+<resources>
+
+    <!-- 应用基础主题 -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!--colorBackground 无效-->
+        <!--<item name="android:colorBackground">@color/grey</item>-->
+    </style>
+
+    <style name="AppTheme.NoActionBar" >
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+    </style>
+
+    <!--ThemeOverlay ：叠加的主题  ActionBar：用于ActionBar（ToolBar）-->
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <!--日报故事 详细内容界面 ToolBar收缩固定时的标题样式-->
+    <style
+        name="MyCollapsingToolbarTextStyle"
+        parent="@android:style/TextAppearance.DeviceDefault">
+
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">16dp</item>
+    </style>
+
+    <!--日报故事 详细内容界面 ToolBar扩展时的标题样式-->
+    <style
+        name="MyExpandedToolbarTextStyle"
+        parent="@android:style/TextAppearance.DeviceDefault">
+
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">20dp</item>
+    </style>
+
+</resources>

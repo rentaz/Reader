@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent">
+
+    <shem.com.materiallogin.MaterialLoginView
+        android:id="@+id/mlv_login"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    
+    <com.victor.loading.book.BookLoading
+        android:visibility="gone"
+        android:id="@+id/bl_loading"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="430dp"
+        android:background="@color/transparent"
+        android:layout_gravity="center_horizontal"/>
+</FrameLayout>
+

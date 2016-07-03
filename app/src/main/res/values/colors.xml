@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#12ba4d</color>
+    <color name="colorPrimaryDark">#07d750</color>
+    <color name="colorAccent">#3f51b5</color>
+    <!--<color name="colorPrimary">#3F51B5</color>-->
+    <!--<color name="colorPrimaryDark">#303F9F</color>-->
+    <!--<color name="colorAccent">#12ba4d</color>-->
+    <color name="fabRippleColor">#5b68c1</color>
+    <!--无效 colorControlHighlight android：21（5.0）以上-->
+    <!--<color name="colorControlHighlight">#485ce6</color>-->
+
+    <color name="transparent">#00000000</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <!--<color name="grey">#a7a4a4</color>-->
+    <color name="grey">#BEBEBE</color>
+    <color name="grey_light">#f5f3f3</color>
+    <color name="green">#12ba4d</color>
+    <color name="yellow">#ecdd09</color>
+    <color name="material_login_login_color">@color/white</color>
+    <color name="material_login_register_color">@color/colorPrimary</color>
+    <color name="material_login_login_error_color">#ffbebe</color>
+    <color name="material_login_register_error_color">#600002</color>
+</resources>
