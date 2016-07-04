@@ -3,7 +3,7 @@ package com.zrf.reader.utils;
 import android.util.Log;
 
 /**
- * Iwds日志类.
+ * Log调试类
  */
 public class ZLog {
     private static final String LOG_TAG_PREFIX = "ZZZ---";
